@@ -27,13 +27,15 @@
         android:layout_toStartOf="@+id/button"
         android:layout_alignParentBottom="true"/>
 
-    <Button
-        android:text="Add Item"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/ic_send_black_24dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:elevation="4dp"
         android:onClick="onAddItem"
-        android:id="@+id/button" />
+        android:background="@drawable/write_button"
+        android:id="@+id/button"/>
 </RelativeLayout>

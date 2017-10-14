@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flicks_backdrop_placeholder"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ivBackdropImage"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:text=" Movie Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tvTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:id="@+id/tvOverview"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ivBackdrop" />
+
+</RelativeLayout>
