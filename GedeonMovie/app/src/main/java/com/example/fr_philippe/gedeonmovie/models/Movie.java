@@ -7,7 +7,7 @@ import org.json.JSONObject;
  * Created by FR-PHILIPPE on 10/9/2017.
  */
 
-public class Movie {
+public class  Movie {
     // values from the API
     private String title;
     private String overView;
