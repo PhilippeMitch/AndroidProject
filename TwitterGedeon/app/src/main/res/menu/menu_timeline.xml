@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile"
+        android:id="@+id/mIProfile"
+        tools:showAsAction="ifRoom"
+        android:onClick="onProfileView"
+        android:icon="@drawable/ic_person_black_24dp" />
+</menu>

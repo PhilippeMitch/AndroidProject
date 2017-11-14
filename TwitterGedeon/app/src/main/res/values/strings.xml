@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">8KaOS1Jn2S9R9bhCNpZv1fVc1</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">r4wzv2cTFcEVnYNFnAmQsMLyIiB9MlCxinVUsaTiuKcWNvCS4B</string>
+    <string name="app_name">Gedeon Twitt</string>
+    <string name="app_logout">Logout</string>
+    <string name="login_label">Log in</string>
+    <string name="intent_welcome">Welcome to Twitter</string>
+    <string name="intent_welcome_see">See what is happening in the world right now</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="intent_scheme">oauth</string>
+    <string name="intent_host">cprest</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Unable_to_connect_to_the_internet_right_now">Unable to connect to the internet right now.</string>
+
+</resources>
