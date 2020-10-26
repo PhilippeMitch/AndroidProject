@@ -31,8 +31,8 @@ For example if I wanted to connect to Twitter:
 public class RestClient extends OAuthBaseClient {
     public static final BaseApi REST_API_INSTANCE = TwitterApi.instance();
     public static final String REST_URL = "https://api.twitter.com/1.1";
-    public static final String REST_CONSUMER_KEY = "57fdgdfh345195e071f9a761d763ca0";
-    public static final String REST_CONSUMER_SECRET = "d657sdsg34435435";
+    public static final String REST_CONSUMER_KEY = "YOUR_CONSUMER_KEY";
+    public static final String REST_CONSUMER_SECRET = "YOUR_CONSUMER_SECRET";
     // ...constructor and endpoints
 }
 ```
